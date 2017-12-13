@@ -27,6 +27,12 @@ Show all images:
 docker images
 ```
 
+cd into running container:
+```
+docker attach NAMEOFCONTAINER
+```
+
+
 Show running containers:
 ```
 docker ps
