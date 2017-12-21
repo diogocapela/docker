@@ -81,6 +81,15 @@ Run a command inside a running container
 docker exec CONTAINER_NAME
 ```
 
+Create a new image from a container’s changes
+```
+docker ps
+docker images
+docker commit CONTAINER_ID [REPOSITORY[:TAG]]
+docker commit c3f279d17e0a  svendowideit/testimage:version3
+```
+
+
 ## dockerfiles
 
 node.js
