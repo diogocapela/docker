@@ -1,4 +1,4 @@
-# docker (install portainer!!!!)
+# docker
 
 ## commands
 
@@ -31,7 +31,6 @@ cd into running container:
 ```
 docker attach NAMEOFCONTAINER
 ```
-
 
 Show running containers:
 ```
@@ -72,9 +71,19 @@ Display total file sizes of running containers:
 docker ps -s
 ```
 
+Cd into a container
+```
+docker exec -i -t CONTAINER_NAME_OR_ID /bin/bash
+```
+
+Run a command inside a running container
+```
+docker exec CONTAINER_NAME
+```
+
 ## dockerfiles
 
-node.js Dockerfile
+node.js
 ```
 FROM node
 
