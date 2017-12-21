@@ -14,7 +14,7 @@ docker build -t myapp:0.0.1 .
 
 Run an image (creates a container):
 ```
-docker run -it --rm -p --name my-named-app 1337:3000 myapp
+docker run -it --rm --name NAME_OF_MY_CONTAINER -p 1337:3000 NAME_OF_IMAGE
 
 // -it - interactive terminal
 // --rm - remove when its done
